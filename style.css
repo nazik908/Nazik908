@@ -1,0 +1,556 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1440px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    background-image: url(../img/Group\ 132.png);
+}
+
+.header .icons{
+    width: 37px;
+    height: 37px;
+    margin: 0 690px;
+    cursor: pointer;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;    
+    text-align: center;
+    color: #22253B;
+}
+
+.menu .one{
+    margin: 0 40px;
+}
+
+.menu .two{
+    margin: 0 40px;
+}
+
+.main .btn  .three{
+    margin: 0 0 0 20px;
+    cursor: pointer;
+}
+
+.main .btn button{
+    width: 77.9px;
+    height: 30.73px;  
+    background: #38BFF2;
+    border-radius: 34px;
+    border: none;
+    color: white;
+}
+
+.testing{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.testing-main{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+}
+
+.testing-main h1{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    color: #22253B;
+}
+
+.testing-main h1 span{
+    color: red;
+}
+
+.testing-main p{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #22253B;
+    margin: 50px 0;
+}
+
+.testing-main button{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+
+    width: 321px;
+    height: 70px;
+    background: #F15525;
+    border-radius: 82px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.section h1{
+    font-family: 'Gilroy SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+    
+    color: #22253B;
+    margin: 50px 0;
+}
+
+.section-main{
+    width: 1160px;
+    height: 396px;
+    background: #EAF2F5;
+    border-radius: 48px;
+    margin: 30px 130px;
+}
+
+.section-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.section-main .btn button{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+}
+
+.section-main .bt1{
+    width: 311px;
+    height: 45.13px;
+    background: #5096FF;
+    border-radius: 44px;
+}
+.section-main .bt2{
+    width: 89px;
+    height: 45.13px;
+    background: #FFB359;
+    border-radius: 44px;
+    margin: 0 0 15px 10px;
+}
+.section-main .bt3{
+    width: 151.17px;
+    height: 45.13px;
+    background: #FF6F50;
+    border-radius: 44px;
+}
+.section-main .bt4{
+    width: 277.48px;
+    height: 45.13px;
+    background: #4BD071;
+    border-radius: 44px;
+    margin: 0 0 15px 10px;
+}
+.section-main .bt5{
+    width: 258px;
+    height: 45px;
+    background: #50C0FF;
+    border-radius: 44px;
+}
+.section-main .bt6{
+    width: 95px;
+    height: 45.13px;
+    background: #4B77B9;
+    border-radius: 44px;
+    margin: 0 10px 50px 10px;
+}
+.section-main .bt7{
+    width: 93.83px;
+    height: 45.13px;
+    background: #AF93FF;
+    border-radius: 44px;
+}
+
+.section .btn p{
+    font-family: 'Gilroy SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #22253B;
+}
+
+.training h1{
+    font-family: 'Gilroy SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+    
+    color: #22253B;
+    margin: 50px 0;
+}
+
+.training-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.training-main .card{
+    width: 270px;
+    height: 254px;
+    background: #EAF2F5;
+    border-radius: 30px;
+}
+
+.training-main .card{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #22253B;
+    padding: 40px 0;
+}
+
+.training-main p{
+    font-family: 'Gilroy SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    
+    color: #22253B;
+    margin: 20px 0;
+}
+
+.training-main2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 0;
+}
+
+.training-main2 .card{
+    width: 270px;
+    height: 254px;
+    background: #EAF2F5;
+    border-radius: 30px;
+}
+.training-main2 .card{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #22253B;
+    padding: 40px 0;
+}
+
+.training-main2 p{
+    font-family: 'Gilroy SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    
+    color: #22253B;
+    margin: 20px 0;
+}
+
+.training-main2 .card2{
+    width: 270px;
+    height: 254px;
+    background: #EAF2F5;
+    border-radius: 30px;
+    margin: 0 60px;
+}
+
+.training-main2 .card2{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    
+    color: #22253B;
+    padding: 40px 0;
+}
+
+.training-main2 .card2 p{
+    font-family: 'Gilroy SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    
+    color: #22253B;
+    margin: 20px 0;
+}
+
+.process-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.process-main h1{
+    font-family: 'Gilroy SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 46px;
+    text-align: center;
+    
+    color: #22253B;
+    margin: 150px 0 0 0;
+}
+
+.process-main p{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    
+    color: #22253B;
+    margin: 30px 0;
+}
+
+.process-main .video{
+    width: 622.35px;
+    height: 438.16px;
+    background: linear-gradient(180deg, #FFFFFF 88.02%, #F8F8F8 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 140px 0 0;
+}
+.process-main .video .img{
+    width: 600px;
+    height: 400px;
+}
+.process-main .video .icons{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background: #F15525;
+    border-radius: 82px;
+    margin: 170px 330px;
+}
+
+.process-main .video a{
+    position: absolute;
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    
+    color: #ffffff;
+    margin: 270px 290px;
+}
+
+.process-main .video .icons .ion{
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+    margin: 30px 30px;
+}
+
+
+.process-main .proc-card{
+    margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1160px;
+    height: 449px;
+    background: #e0d9d9;
+    box-shadow: 0px 81px 120px -77px rgba(34, 37, 59, 0.04);
+    border-radius: 40px;
+}
+.process-main .proc-card .card{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    padding: 0 0 100px 0;
+}
+.process-main .proc-card .card h1{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 77px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    
+    color: #38BFF2;
+}
+.process-main .proc-card .card p{
+    font-family: 'Gilroy SemiBold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: start;
+    
+    color: #22253B;
+}
+.process-main .proc-card .card span{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+
+    color: #22253B;
+}
+.process-main .btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.process-main .btn button{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.03em;
+    
+    color: #FFFFFF;
+    width: 249px;
+    height: 70px;
+    background: #F15525;
+    border-radius: 82px;
+    border: none;
+}
+
+.process-main .btn p{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: start;
+    color: #22253B;
+}
+
+.support{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 100px 0 0 0;
+}
+
+.support .card1{
+    width: 401px;
+    height: 313px;
+    background: #EAF2F5;
+    border-radius: 40px;
+    padding: 50px 70px;
+}
+
+.support .card2{
+    width: 730px;
+    height: 313px;
+    background: #EAF2F5;
+    border-radius: 40px;
+    padding: 45px 70px;
+}
+
+.support h1{
+    font-family: 'Gilroy SemiBold',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    color: #22253B;
+}
+
+.support p{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #22253B;
+    margin: 20px 0;
+}
+
+.support2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 70px 0 ;
+}
+.support2 .card3{
+    width: 730px;
+    height: 290px;
+    background: #EAF2F5;
+    border-radius: 40px;
+    padding: 45px 70px;
+}
+.support2 .card4{
+    width: 400px;
+    height: 290px;
+    background: #EAF2F5;
+    border-radius: 40px;
+    padding: 30px 70px;
+}
+
+.support2 h1{
+    font-family: 'Gilroy SemiBold',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 30px;
+    color: #22253B;
+}
+
+.support2 p{
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #22253B;
+    margin: 20px 0;
+}
